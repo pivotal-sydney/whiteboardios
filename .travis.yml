@@ -6,4 +6,4 @@ before_install:
   - gem install cocoapods --pre
 script:
   - xctool -scheme whiteboardios -sdk iphonesimulator -workspace whiteboardios.xcworkspace ONLY_ACTIVE_ARCH=NO
-  - xctool test -scheme rquet-ios -sdk iphonesimulator -workspace whiteboardios.xcworkspace ONLY_ACTIVE_ARCH=NO
+  - xctool test -scheme whiteboardios -sdk iphonesimulator -workspace whiteboardios.xcworkspace ONLY_ACTIVE_ARCH=NO
