@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/pivotal-sydney/whiteboardios.svg?branch=master)](https://travis-ci.org/pivotal-sydney/whiteboardios)
+
 # whiteboardios
 Whiteboard iOS native app
 
