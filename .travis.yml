@@ -1,0 +1,9 @@
+language: objective-c
+osx_image: xcode7.2
+rvm:
+  - 2.2.3
+before_install:
+  - gem install cocoapods --pre
+script:
+  - xctool -scheme whiteboardios -sdk iphonesimulator -workspace whiteboardios.xcworkspace ONLY_ACTIVE_ARCH=NO
+  - xctool test -scheme rquet-ios -sdk iphonesimulator -workspace whiteboardios.xcworkspace ONLY_ACTIVE_ARCH=NO
