@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  whiteboardios
-//
-//  Created by pivotal on 3/10/16.
-//  Copyright © 2016 pivotal. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
@@ -44,7 +36,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
 
 }
 

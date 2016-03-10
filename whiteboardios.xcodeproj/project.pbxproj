@@ -13,7 +13,6 @@
 		AE3A48F21C912BE700B22737 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A48F11C912BE700B22737 /* ViewController.swift */; };
 		AE3A48F71C912BE700B22737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3A48F61C912BE700B22737 /* Assets.xcassets */; };
 		AE3A48FA1C912BE700B22737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3A48F81C912BE700B22737 /* LaunchScreen.storyboard */; };
-		AE3A49051C912BE700B22737 /* whiteboardiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A49041C912BE700B22737 /* whiteboardiosTests.swift */; };
 		AE3A49101C912BE700B22737 /* whiteboardiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A490F1C912BE700B22737 /* whiteboardiosUITests.swift */; };
 		AED9AC0B1C912D66009E1FE0 /* AppDelegateSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED9AC0A1C912D66009E1FE0 /* AppDelegateSpec.swift */; };
 /* End PBXBuildFile section */
@@ -46,7 +45,6 @@
 		AE3A48F91C912BE700B22737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE3A48FB1C912BE700B22737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE3A49001C912BE700B22737 /* whiteboardiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whiteboardiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE3A49041C912BE700B22737 /* whiteboardiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whiteboardiosTests.swift; sourceTree = "<group>"; };
 		AE3A49061C912BE700B22737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE3A490B1C912BE700B22737 /* whiteboardiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whiteboardiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3A490F1C912BE700B22737 /* whiteboardiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whiteboardiosUITests.swift; sourceTree = "<group>"; };
@@ -132,7 +130,6 @@
 		AE3A49031C912BE700B22737 /* whiteboardiosTests */ = {
 			isa = PBXGroup;
 			children = (
-				AE3A49041C912BE700B22737 /* whiteboardiosTests.swift */,
 				AE3A49061C912BE700B22737 /* Info.plist */,
 				AED9AC0A1C912D66009E1FE0 /* AppDelegateSpec.swift */,
 			);
@@ -379,7 +376,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE3A49051C912BE700B22737 /* whiteboardiosTests.swift in Sources */,
 				AED9AC0B1C912D66009E1FE0 /* AppDelegateSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
