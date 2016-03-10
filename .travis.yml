@@ -1,9 +1,10 @@
 language: objective-c
+branches:
+  only:
+  - master
+xcode_project: whiteboardios.xcodeproj
+xcode_scheme: whiteboardiosTests
 osx_image: xcode7.2
-rvm:
-  - 2.2.3
-before_install:
-  - gem install cocoapods --pre
+xcode_sdk: iphonesimulator9.2
 script:
-  - xctool -scheme whiteboardios -sdk iphonesimulator -workspace whiteboardios.xcworkspace ONLY_ACTIVE_ARCH=NO
-  - xctool test -scheme whiteboardios -sdk iphonesimulator -workspace whiteboardios.xcworkspace ONLY_ACTIVE_ARCH=NO
+  - xcodebuild clean build test -project whiteboardios.xcodeproj -scheme whiteboardTests
