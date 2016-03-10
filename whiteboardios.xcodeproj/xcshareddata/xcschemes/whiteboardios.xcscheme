@@ -20,6 +20,20 @@
                ReferencedContainer = "container:whiteboardios.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AE3A490A1C912BE700B22737"
+               BuildableName = "whiteboardiosUITests.xctest"
+               BlueprintName = "whiteboardiosUITests"
+               ReferencedContainer = "container:whiteboardios.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -35,16 +49,6 @@
                BlueprintIdentifier = "AE3A48FF1C912BE700B22737"
                BuildableName = "whiteboardiosTests.xctest"
                BlueprintName = "whiteboardiosTests"
-               ReferencedContainer = "container:whiteboardios.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AE3A490A1C912BE700B22737"
-               BuildableName = "whiteboardiosUITests.xctest"
-               BlueprintName = "whiteboardiosUITests"
                ReferencedContainer = "container:whiteboardios.xcodeproj">
             </BuildableReference>
          </TestableReference>
