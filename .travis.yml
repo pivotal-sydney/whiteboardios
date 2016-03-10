@@ -7,4 +7,4 @@ xcode_scheme: whiteboardiosTests
 osx_image: xcode7.2
 xcode_sdk: iphonesimulator9.2
 script:
-  - xcodebuild clean build test -project whiteboardios.xcodeproj -scheme whiteboardTests
+  - xcodebuild clean build test -project whiteboardios.xcodeproj -scheme whiteboardiosTests
