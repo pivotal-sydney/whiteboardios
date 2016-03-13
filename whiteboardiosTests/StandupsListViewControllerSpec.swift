@@ -42,5 +42,13 @@ class StandupsViewControllerSpec: QuickSpec {
                 expect(cell.name.text).to(equal("Sydney"))
             }
         }
+        
+        describe("Selecting a standup cell") {
+            it("should push a StandupViewController on the navigation controller") {
+                let navController = UINavigationController(rootViewController: subject)
+                subject.tableView(subject.tableView, didSelectRowAtIndexPath: NSIndexPath(0, 1))
+                expect(navController.topViewController).to(beAnInstanceOf(StandupViewController.self))
+            }
+        }
     }
 }
