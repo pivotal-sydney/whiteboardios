@@ -10,11 +10,16 @@
 		3123266193CDB7760A49FFE0 /* Pods_whiteboardiosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E0DEA9F6B4B3F5D485092F /* Pods_whiteboardiosTests.framework */; };
 		5930008198C2FA9BF394DB55 /* Pods_whiteboardiosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D27653F5B88AB119C74ED4F /* Pods_whiteboardiosUITests.framework */; };
 		AE3A48F01C912BE700B22737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A48EF1C912BE700B22737 /* AppDelegate.swift */; };
-		AE3A48F21C912BE700B22737 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A48F11C912BE700B22737 /* ViewController.swift */; };
 		AE3A48F71C912BE700B22737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3A48F61C912BE700B22737 /* Assets.xcassets */; };
-		AE3A48FA1C912BE700B22737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3A48F81C912BE700B22737 /* LaunchScreen.storyboard */; };
 		AE3A49101C912BE700B22737 /* whiteboardiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A490F1C912BE700B22737 /* whiteboardiosUITests.swift */; };
+		AE64FE5D1C96606100B00887 /* OktaLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64FE5B1C96606100B00887 /* OktaLoginViewController.swift */; };
+		AE64FE5E1C96606100B00887 /* OktaLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE64FE5C1C96606100B00887 /* OktaLoginViewController.xib */; };
+		AE64FE611C966ACB00B00887 /* WhiteboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64FE5F1C966ACB00B00887 /* WhiteboardViewController.swift */; };
+		AE64FE621C966ACB00B00887 /* WhiteboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE64FE601C966ACB00B00887 /* WhiteboardViewController.xib */; };
 		AED9AC0B1C912D66009E1FE0 /* AppDelegateSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED9AC0A1C912D66009E1FE0 /* AppDelegateSpec.swift */; };
+		AEE5D04B1C92695C00DBDD1B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE5D0491C92695C00DBDD1B /* MainViewController.swift */; };
+		AEE5D04C1C92695C00DBDD1B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEE5D04A1C92695C00DBDD1B /* MainViewController.xib */; };
+		B4A7D9A74963E2304FF23917 /* Pods_whiteboardios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B540ACC60EB0B2E64F8E829E /* Pods_whiteboardios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,21 +40,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		215F8CF896309CC0A2500F1D /* Pods-whiteboardios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whiteboardios.release.xcconfig"; path = "Pods/Target Support Files/Pods-whiteboardios/Pods-whiteboardios.release.xcconfig"; sourceTree = "<group>"; };
+		41B241DF6FE8FA65CAD554C2 /* Pods-whiteboardios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whiteboardios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-whiteboardios/Pods-whiteboardios.debug.xcconfig"; sourceTree = "<group>"; };
 		5D27653F5B88AB119C74ED4F /* Pods_whiteboardiosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whiteboardiosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		714CA95B08A014A842020C14 /* Pods-whiteboardiosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whiteboardiosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-whiteboardiosTests/Pods-whiteboardiosTests.release.xcconfig"; sourceTree = "<group>"; };
 		9244AAD03FF2F8FA661690AA /* Pods-whiteboardiosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whiteboardiosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-whiteboardiosUITests/Pods-whiteboardiosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AE3A48EC1C912BE700B22737 /* whiteboardios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whiteboardios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3A48EF1C912BE700B22737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE3A48F11C912BE700B22737 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE3A48F61C912BE700B22737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AE3A48F91C912BE700B22737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE3A48FB1C912BE700B22737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE3A49001C912BE700B22737 /* whiteboardiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whiteboardiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3A49061C912BE700B22737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE3A490B1C912BE700B22737 /* whiteboardiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whiteboardiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3A490F1C912BE700B22737 /* whiteboardiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whiteboardiosUITests.swift; sourceTree = "<group>"; };
 		AE3A49111C912BE700B22737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE64FE5B1C96606100B00887 /* OktaLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OktaLoginViewController.swift; sourceTree = "<group>"; };
+		AE64FE5C1C96606100B00887 /* OktaLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OktaLoginViewController.xib; sourceTree = "<group>"; };
+		AE64FE5F1C966ACB00B00887 /* WhiteboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteboardViewController.swift; sourceTree = "<group>"; };
+		AE64FE601C966ACB00B00887 /* WhiteboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WhiteboardViewController.xib; sourceTree = "<group>"; };
 		AED9AC0A1C912D66009E1FE0 /* AppDelegateSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateSpec.swift; sourceTree = "<group>"; };
+		AEE5D0491C92695C00DBDD1B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AEE5D04A1C92695C00DBDD1B /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		B540ACC60EB0B2E64F8E829E /* Pods_whiteboardios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whiteboardios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1E693A613B4C9880D0FC81 /* Pods-whiteboardiosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whiteboardiosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-whiteboardiosTests/Pods-whiteboardiosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C8C6BF3E8238C529B5A1F3EE /* Pods-whiteboardiosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whiteboardiosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-whiteboardiosUITests/Pods-whiteboardiosUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F5E0DEA9F6B4B3F5D485092F /* Pods_whiteboardiosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whiteboardiosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4A7D9A74963E2304FF23917 /* Pods_whiteboardios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +102,8 @@
 				714CA95B08A014A842020C14 /* Pods-whiteboardiosTests.release.xcconfig */,
 				C8C6BF3E8238C529B5A1F3EE /* Pods-whiteboardiosUITests.debug.xcconfig */,
 				9244AAD03FF2F8FA661690AA /* Pods-whiteboardiosUITests.release.xcconfig */,
+				41B241DF6FE8FA65CAD554C2 /* Pods-whiteboardios.debug.xcconfig */,
+				215F8CF896309CC0A2500F1D /* Pods-whiteboardios.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -119,10 +134,14 @@
 			isa = PBXGroup;
 			children = (
 				AE3A48EF1C912BE700B22737 /* AppDelegate.swift */,
-				AE3A48F11C912BE700B22737 /* ViewController.swift */,
 				AE3A48F61C912BE700B22737 /* Assets.xcassets */,
-				AE3A48F81C912BE700B22737 /* LaunchScreen.storyboard */,
 				AE3A48FB1C912BE700B22737 /* Info.plist */,
+				AEE5D0491C92695C00DBDD1B /* MainViewController.swift */,
+				AEE5D04A1C92695C00DBDD1B /* MainViewController.xib */,
+				AE64FE5B1C96606100B00887 /* OktaLoginViewController.swift */,
+				AE64FE5C1C96606100B00887 /* OktaLoginViewController.xib */,
+				AE64FE5F1C966ACB00B00887 /* WhiteboardViewController.swift */,
+				AE64FE601C966ACB00B00887 /* WhiteboardViewController.xib */,
 			);
 			path = whiteboardios;
 			sourceTree = "<group>";
@@ -150,6 +169,7 @@
 			children = (
 				F5E0DEA9F6B4B3F5D485092F /* Pods_whiteboardiosTests.framework */,
 				5D27653F5B88AB119C74ED4F /* Pods_whiteboardiosUITests.framework */,
+				B540ACC60EB0B2E64F8E829E /* Pods_whiteboardios.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE3A49141C912BE700B22737 /* Build configuration list for PBXNativeTarget "whiteboardios" */;
 			buildPhases = (
+				49499E7104E8EA8EFF0D60DA /* Check Pods Manifest.lock */,
 				AE3A48E81C912BE700B22737 /* Sources */,
 				AE3A48E91C912BE700B22737 /* Frameworks */,
 				AE3A48EA1C912BE700B22737 /* Resources */,
+				1391C8ADD7C0CC6FD736D702 /* Embed Pods Frameworks */,
+				C654417C7C8F8EDCED4150EC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,7 +286,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE3A48FA1C912BE700B22737 /* LaunchScreen.storyboard in Resources */,
+				AEE5D04C1C92695C00DBDD1B /* MainViewController.xib in Resources */,
+				AE64FE621C966ACB00B00887 /* WhiteboardViewController.xib in Resources */,
+				AE64FE5E1C96606100B00887 /* OktaLoginViewController.xib in Resources */,
 				AE3A48F71C912BE700B22737 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +325,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-whiteboardiosUITests/Pods-whiteboardiosUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		1391C8ADD7C0CC6FD736D702 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-whiteboardios/Pods-whiteboardios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2231FB83B72B8E40799A696C /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -313,6 +353,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-whiteboardiosTests/Pods-whiteboardiosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49499E7104E8EA8EFF0D60DA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		5A6E0D174203DE2AAD0D8E9C /* Copy Pods Resources */ = {
@@ -345,6 +400,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		C654417C7C8F8EDCED4150EC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-whiteboardios/Pods-whiteboardios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		EC40CF5395C70B1680A85DD7 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,8 +437,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE3A48F21C912BE700B22737 /* ViewController.swift in Sources */,
+				AEE5D04B1C92695C00DBDD1B /* MainViewController.swift in Sources */,
+				AE64FE611C966ACB00B00887 /* WhiteboardViewController.swift in Sources */,
 				AE3A48F01C912BE700B22737 /* AppDelegate.swift in Sources */,
+				AE64FE5D1C96606100B00887 /* OktaLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,17 +474,6 @@
 			targetProxy = AE3A490C1C912BE700B22737 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		AE3A48F81C912BE700B22737 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE3A48F91C912BE700B22737 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AE3A49121C912BE700B22737 /* Debug */ = {
@@ -500,6 +561,7 @@
 		};
 		AE3A49151C912BE700B22737 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B241DF6FE8FA65CAD554C2 /* Pods-whiteboardios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = whiteboardios/Info.plist;
@@ -511,6 +573,7 @@
 		};
 		AE3A49161C912BE700B22737 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 215F8CF896309CC0A2500F1D /* Pods-whiteboardios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = whiteboardios/Info.plist;
