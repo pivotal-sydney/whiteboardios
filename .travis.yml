@@ -4,6 +4,7 @@ rvm:
   - 2.2.3
 before_install:
   - gem install cocoapods --pre
+  - pod --version
 script:
   - xctool -scheme whiteboardios -sdk iphonesimulator -workspace whiteboardios.xcworkspace ONLY_ACTIVE_ARCH=NO
   - xctool test -scheme whiteboardios -sdk iphonesimulator -workspace whiteboardios.xcworkspace ONLY_ACTIVE_ARCH=NO
