@@ -16,7 +16,6 @@
 		AE1D97681C9243E900B37B4A /* FakeWhiteboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1D97671C9243E900B37B4A /* FakeWhiteboardService.swift */; };
 		AE1D976A1C924E7D00B37B4A /* sample_standups.json in Resources */ = {isa = PBXBuildFile; fileRef = AE1D97691C924E7D00B37B4A /* sample_standups.json */; };
 		AE3A48F01C912BE700B22737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A48EF1C912BE700B22737 /* AppDelegate.swift */; };
-		AE3A48F21C912BE700B22737 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A48F11C912BE700B22737 /* ViewController.swift */; };
 		AE3A48F71C912BE700B22737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3A48F61C912BE700B22737 /* Assets.xcassets */; };
 		AE3A48FA1C912BE700B22737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3A48F81C912BE700B22737 /* LaunchScreen.storyboard */; };
 		AE3A49101C912BE700B22737 /* whiteboardiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A490F1C912BE700B22737 /* whiteboardiosUITests.swift */; };
@@ -55,7 +54,6 @@
 		AE1D97691C924E7D00B37B4A /* sample_standups.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample_standups.json; sourceTree = "<group>"; };
 		AE3A48EC1C912BE700B22737 /* whiteboardios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whiteboardios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3A48EF1C912BE700B22737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE3A48F11C912BE700B22737 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE3A48F61C912BE700B22737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE3A48F91C912BE700B22737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE3A48FB1C912BE700B22737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -140,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				AE3A48EF1C912BE700B22737 /* AppDelegate.swift */,
-				AE3A48F11C912BE700B22737 /* ViewController.swift */,
 				AE3A48F61C912BE700B22737 /* Assets.xcassets */,
 				AE3A48F81C912BE700B22737 /* LaunchScreen.storyboard */,
 				AE3A48FB1C912BE700B22737 /* Info.plist */,
@@ -446,7 +443,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE3A48F21C912BE700B22737 /* ViewController.swift in Sources */,
 				AE1D97621C923CD500B37B4A /* StandupsViewController.swift in Sources */,
 				AE8D91FC1C92533600CFAEBB /* StandupTableViewCell.swift in Sources */,
 				AE3A48F01C912BE700B22737 /* AppDelegate.swift in Sources */,
