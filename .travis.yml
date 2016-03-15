@@ -5,9 +5,7 @@ rvm:
 before_install:
   - gem install cocoapods --pre
   - pod --version
-  - pod repo update
+  - pod repo update --silent
   - gem install xcpretty
-  - gem install xcpretty-travis-formatter
 script:
-  - set -o pipefail && xcodebuild -scheme whiteboardios -sdk iphonesimulator -workspace whiteboardios.xcworkspace -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest' ONLY_ACTIVE_ARCH=NO | xcpretty -f `xcpretty-travis-formatter`
-  - xctool test -scheme whiteboardios -sdk iphonesimulator -workspace whiteboardios.xcworkspace ONLY_ACTIVE_ARCH=NO
+  - set -o pipefail && xcodebuild -scheme whiteboardios -sdk iphonesimulator -workspace whiteboardios.xcworkspace -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest' ONLY_ACTIVE_ARCH=NO clean test| xcpretty --test
