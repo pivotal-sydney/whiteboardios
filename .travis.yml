@@ -7,5 +7,5 @@ before_install:
   - pod --version
   - gem install xcpretty
 script:
-  - xcodebuild -scheme whiteboardios -sdk iphonesimulator -workspace whiteboardios.xcworkspace ONLY_ACTIVE_ARCH=NO | xcpretty && exit ${PIPESTATUS[0]}
+  - xcodebuild -scheme whiteboardios -sdk iphonesimulator -workspace whiteboardios.xcworkspace -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest' ONLY_ACTIVE_ARCH=NO | xcpretty && exit ${PIPESTATUS[0]}
   - xctool test -scheme whiteboardios -sdk iphonesimulator -workspace whiteboardios.xcworkspace ONLY_ACTIVE_ARCH=NO
