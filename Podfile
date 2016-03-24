@@ -6,7 +6,6 @@ target 'whiteboardios' do
   pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
   
   target 'whiteboardiosTests' do
-    inherit! :search_paths
     pod 'Quick', '~> 0.9.0'
     pod 'Nimble', '3.0.0'
   end

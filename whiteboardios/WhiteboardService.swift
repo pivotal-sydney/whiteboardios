@@ -6,14 +6,13 @@ protocol WhiteboardService {
 }
 
 class RealWhiteboardService: WhiteboardService {
-    
+
     func getStandups(callback: (response: SwiftyJSON.JSON?) -> Void) {
         let baseUrl = NSBundle.mainBundle().objectForInfoDictionaryKey("WHITEBOARD_BASE_URL") as! String
         let url = NSURL(string: "/standups", relativeToURL: NSURL(string: baseUrl))
         retrieveData(Alamofire.Method.GET, url: (url?.absoluteString)!, callback: callback)
     }
-    
-    
+
     func retrieveData(method: Alamofire.Method, url: String, callback: (response: SwiftyJSON.JSON?) -> Void) {
         Alamofire.request(method, url)
             .responseJSON {
@@ -32,5 +31,5 @@ class RealWhiteboardService: WhiteboardService {
                 }
         }
     }
-    
+
 }
